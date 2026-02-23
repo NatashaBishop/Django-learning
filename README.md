@@ -1,1 +1,3 @@
-## this repository is to help me to use Cursor for my coding tasks and also for debugging
+## this repository is to help me to learn Django. 
+The materials I've used: 
+Learn Django: https://www.w3schools.com/django/index.php
