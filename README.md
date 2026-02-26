@@ -9,3 +9,9 @@ How Django works:
     - The models are imported from the models.py file.
     - The view then sends the data to a specified template in the template folder.
     - The template contains HTML and Django tags, and with the data it returns finished HTML content back to the browser.
+Django Model View Template design pattern:  
+
+    - Model - The data you want to present, usually data from a database.
+    - View - A request handler that returns the relevant template and content - based on the request from the user.
+
+
