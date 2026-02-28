@@ -15,4 +15,6 @@ Django Model View Template design pattern:
     - View - A request handler that returns the relevant template and content - based on the request from the user. Located in view.py
     - Template - A text file (like an HTML file) containing the layout of the web page, with logic on how to display the data.  
       Located in a folder named templates
+    - To navigate around the different pages in a website. When a user requests a URL, Django decides which view it will send it to. Its done in a file  urls.py
 
+xxx
