@@ -17,4 +17,4 @@ Django Model View Template design pattern:
       Located in a folder named templates
     - To navigate around the different pages in a website. When a user requests a URL, Django decides which view it will send it to. Its done in a file  urls.py
 
-xxx
+
