@@ -8,3 +8,6 @@ navigate to project directory, create Virtual Environment. venv is a part of Pyt
 
     python -m venv myenv #where myenv is just a chosen name for Virtual Environment
 
+virtual environment will create a folder named "myenv" with subfolders and files: 
+
+ 
