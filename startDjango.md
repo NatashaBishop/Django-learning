@@ -10,4 +10,10 @@ navigate to project directory, create Virtual Environment. venv is a part of Pyt
 
 virtual environment will create a folder named "myenv" with subfolders and files: 
 
- 
+    myworld
+        Include
+        Lib
+        Scripts
+        .gitignore
+        pyvenv.cfg 
+  
