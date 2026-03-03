@@ -18,4 +18,4 @@ virtual environment will create a folder named "myenv" with subfolders and files
         pyvenv.cfg 
   activate the environment (Windows):  
 
-    myenv\Scripts\activate.bat
+    myenv\Scripts\activate.bat # activate  virtual environment every time in command prompt to work on the project
