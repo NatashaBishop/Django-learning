@@ -16,6 +16,9 @@ virtual environment will create a folder named "myenv" with subfolders and files
         Scripts
         .gitignore
         pyvenv.cfg 
-  activate the environment (Windows):  
+activate the environment (Windows):  
 
     myenv\Scripts\activate.bat # activate  virtual environment every time in command prompt to work on the project
+After virtual environment is created, activate: install Django while in virtual environment 
+
+    (myenv) ... $ python -m pip install Django
