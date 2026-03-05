@@ -22,3 +22,7 @@ activate the environment (Windows):
 After virtual environment is created, activate: install Django while in virtual environment 
 
     (myenv) ... $ python -m pip install Django
+
+is Django installed?: 
+
+    (myenv) C:\Users\Your Name>django-admin --version
