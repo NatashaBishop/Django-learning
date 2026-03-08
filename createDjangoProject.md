@@ -11,3 +11,6 @@ Django will create my_project (the name of your choice) with following structure
         settings.py
         urls.py
         wsgi.py
+Navigate to  /my_project and run the Django Project: 
+
+    python manage.py runserver 
