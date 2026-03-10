@@ -14,3 +14,7 @@ Django will create my_project (the name of your choice) with following structure
 Navigate to  /my_project and run the Django Project: 
 
     python manage.py runserver 
+Type 127.0.0.1:8000 in the  browser window address bar. 
+To quit the server: 
+
+    CTRL-BREAK.
