@@ -18,3 +18,8 @@ Type 127.0.0.1:8000 in the  browser window address bar.
 To quit the server: 
 
     CTRL-BREAK.
+navigate to /my_project, and run the command: 
+   
+    python manage.py startapp bartermonster #bartermonster is the name of application
+
+If the server is still running, and you are not able to write commands, press [CTRL] [BREAK], or [CTRL] [C] to stop the server and you should be back in the virtual environment.
