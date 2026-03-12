@@ -22,4 +22,20 @@ navigate to /my_project, and run the command:
    
     python manage.py startapp bartermonster #bartermonster is the name of application
 
-If the server is still running, and you are not able to write commands, press [CTRL] [BREAK], or [CTRL] [C] to stop the server and you should be back in the virtual environment.
+If the server is still running, and you are not able to write commands, press [CTRL] [BREAK], or [CTRL] [C] to stop the server and you should be back in the virtual environment.  
+Django will create a folder named bartermonster in my_project, with this content:  
+    
+    my_project
+    manage.py
+    my_project/
+    bartermonster/
+        migrations/
+            __init__.py
+        __init__.py
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        views.py
+
+
