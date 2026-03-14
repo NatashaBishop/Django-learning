@@ -1,7 +1,7 @@
 views.py contains functions that take http requests and return http response. 
 usual location: 
 
-    my_project/members/views.py
+    my_project/bartermonster/views.py
 Example of views.py:
     
     from django.shortcuts import render
