@@ -28,7 +28,7 @@ Django will create a folder named bartermonster in my_project, with this content
     my_project
     manage.py
     my_project/
-    members/
+    bartermonster/
         migrations/
             __init__.py
         __init__.py
