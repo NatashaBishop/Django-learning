@@ -13,3 +13,4 @@ The urls.py file we created is specific for out application application
 
           python manage.py runserver
 
+enter 127.0.0.1:8000/bartermonster/ in the address bar to see the results
