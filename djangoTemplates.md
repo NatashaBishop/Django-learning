@@ -4,8 +4,8 @@ go 2 bartermonster/ directory, create new folder templates/ and test.html file i
     manage.py
     my_project/
     bartermonster/
-        templates/
-            test.html
+        templates/ #new folder
+            test.html new file
         migrations/
             __init__.py
         __init__.py
