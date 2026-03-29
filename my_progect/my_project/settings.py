@@ -7,3 +7,4 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'members'
 ]
+#run: python manage.py migrate 
