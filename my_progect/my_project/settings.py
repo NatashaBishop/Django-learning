@@ -33,3 +33,4 @@ Running migrations:
 
 (myworld) C:\Users\Your Name\myworld\my_tennis_club>
 '''
+#then start the server: cd to /my_project folder
