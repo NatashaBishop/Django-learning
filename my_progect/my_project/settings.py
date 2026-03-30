@@ -33,4 +33,6 @@ Running migrations:
 
 (myworld) C:\Users\Your Name\myworld\my_tennis_club>
 '''
-#then start the server: cd to /my_project folder
+#then start the server: cd to /my_project folderand execute this command:
+python manage.py runserver
+
