@@ -15,4 +15,7 @@ go 2 bartermonster/ directory, create new folder templates/ and test.html file i
         tests.py
         views.py
 
-    
+   Start the server:
+   - cd 2 bartermonster/
+   - browser address bar: 127.0.0.1:8000/bartermonster/
+
