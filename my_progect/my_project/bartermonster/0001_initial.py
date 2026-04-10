@@ -22,3 +22,6 @@ class Migration(migrations.Migration):
             ],
         ),
     ]
+# The table is not created at this point yes,  
+# after I run command: python manage.py migrate 
+# this will make Django create and execute an SQL statement, based on the content of the new file in the /migrations/ folder.
