@@ -24,4 +24,13 @@ class Migration(migrations.Migration):
     ]
 # The table is not created at this point yes,  
 # after I run command: python manage.py migrate 
-# this will make Django create and execute an SQL statement, based on the content of the new file in the /migrations/ folder.
+# this will make Django create and execute an SQL statement, based on the content of the new file in the /migrations/ folder
+# and  will give output:
+'''Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, members, sessions
+Running migrations:
+  Applying members.0001_initial... OK
+
+(myworld) C:\..\my_project\bartermonster>'''
+
+
