@@ -32,5 +32,5 @@ Running migrations:
   Applying members.0001_initial... OK
 
 (myworld) C:\..\my_project\bartermonster>'''
-
+# Now I have a "Member" table in my database
 
