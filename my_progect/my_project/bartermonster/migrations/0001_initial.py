@@ -34,3 +34,4 @@ Running migrations:
 (myworld) C:\..\my_project\bartermonster>'''
 # Now I have a "Member" table in my database
 
+# to see database, run: python manage.py sqlmigrate members 0001 
