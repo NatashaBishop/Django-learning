@@ -35,3 +35,10 @@ Running migrations:
 # Now I have a "Member" table in my database
 
 # to see database, run: python manage.py sqlmigrate members 0001 
+# output:
+'''BEGIN;
+--
+-- Create model Member
+--
+CREATE TABLE "members_member" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "firstname" varchar(255) NOT NULL, "lastname" varchar(255) NOT NULL);
+COMMIT;
