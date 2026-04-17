@@ -9,6 +9,8 @@ Now I am in the shell, the result will look like this:@
     Type "help", "copyright", "credits" or "license" for more information.
     (InteractiveConsole)
     >>>
+after that >>> I run the following:
 
+    >>> from members.models import Member 
 
 
