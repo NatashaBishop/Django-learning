@@ -14,6 +14,10 @@ after that >>> I run the following:
     >>> from members.models import Member 
 
 ckick enter and see empty Member table:
+
     >>> Member.objects.all() 
     
+This gives me empty QuerySet object:
+
+     <QuerySet []>
 
