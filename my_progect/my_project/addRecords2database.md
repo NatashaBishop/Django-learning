@@ -19,5 +19,5 @@ ckick enter and see empty Member table:
     
 This gives me empty QuerySet object:
 
-     <QuerySet []>
+     <QuerySet []> # QuerySet is a collection of data from a database
 
