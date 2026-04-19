@@ -20,6 +20,10 @@ ckick enter and see empty Member table:
 This gives me empty QuerySet object:
 
      <QuerySet []> # QuerySet is a collection of data from a database
+check member table:
+
+    >>> Member.objects.all().values()
+
 
 # Add a record to table from command line:
 
