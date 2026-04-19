@@ -21,3 +21,7 @@ This gives me empty QuerySet object:
 
      <QuerySet []> # QuerySet is a collection of data from a database
 
+# Add a record to table from command line:
+
+    >>> member = Member(firstname='Emil', lastname='Refsnes')
+    >>> member.save() 
