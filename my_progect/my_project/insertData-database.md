@@ -29,3 +29,7 @@ check member table:
 
     >>> member = Member(firstname='Emil', lastname='Refsnes')
     >>> member.save() 
+# See Member table:
+
+    >>> Member.objects.all().values()
+
