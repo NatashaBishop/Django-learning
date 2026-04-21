@@ -32,4 +32,7 @@ check member table:
 # See Member table:
 
     >>> Member.objects.all().values()
+# Output:
+
+    <QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}]> 
 
