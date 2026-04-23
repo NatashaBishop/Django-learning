@@ -49,3 +49,6 @@ I design  a list of Member objects, then execute .save() on each entry (loop):
     ...
     >>> 
     # to exit the for loop hit "enter" one more time at the end
+Output:checking on the members input
+
+    >>> Member.objects.all().values() 
