@@ -35,7 +35,8 @@ check member table:
 # Output:
 
     <QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}]> 
-# write multiple records to table:
+# write multiple records to table:  
+I design  a list of Member objects, then execute .save() on each entry (loop):
 
     >>> member1 = Member(firstname='Tobias', lastname='Refsnes')
     >>> member2 = Member(firstname='Linus', lastname='Refsnes')
