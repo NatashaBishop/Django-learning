@@ -48,3 +48,4 @@ I design  a list of Member objects, then execute .save() on each entry (loop):
     ...   x.save()
     ...
     >>> 
+    # to exit the for loop hit "enter" one more time at the end
