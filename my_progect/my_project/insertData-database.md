@@ -49,6 +49,15 @@ I design  a list of Member objects, then execute .save() on each entry (loop):
     ...
     >>> 
     # to exit the for loop hit "enter" one more time at the end
-Output:checking on the members input
+2 check on the members input run
 
     >>> Member.objects.all().values() 
+Output: 
+
+    <QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'},
+    {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes'},
+    {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes'},
+    {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes'},
+    {'id': 5, 'firstname': 'Stale', 'lastname': 'Refsnes'},
+    {'id': 6, 'firstname': 'Jane', 'lastname': 'Doe'}]> 
+    
