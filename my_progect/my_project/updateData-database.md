@@ -5,3 +5,6 @@ Geting the record I want to update:
 See what it is: 
 
     >>> x.firstname    
+output: 
+
+    'Stale' 
