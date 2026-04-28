@@ -12,3 +12,6 @@ Change the record:
 
     >>> x.firstname = "Stalikken"
     >>> x.save() 
+Chack member table:
+
+    >>> Member.objects.all().values() 
