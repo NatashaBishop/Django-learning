@@ -8,3 +8,7 @@ See what it is:
 output: 
 
     'Stale' 
+Change the record: 
+
+    >>> x.firstname = "Stalikken"
+    >>> x.save() 
