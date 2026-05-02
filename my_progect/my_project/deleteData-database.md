@@ -10,3 +10,6 @@ it reads out :
 
     John
     
+deleting the record:
+
+    >>> x.delete()
