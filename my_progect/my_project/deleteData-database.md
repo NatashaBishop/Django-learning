@@ -13,3 +13,6 @@ it reads out :
 deleting the record:
 
     >>> x.delete()
+result:
+
+    (1, {'members.Member': 1})
