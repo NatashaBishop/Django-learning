@@ -16,3 +16,6 @@ deleting the record:
 result:
 
     (1, {'members.Member': 1})
+this result tells how many items were deleted, and from what Model  
+
+
