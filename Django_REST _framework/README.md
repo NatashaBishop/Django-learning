@@ -1,5 +1,17 @@
+A web API is a bridge that lets one program request and receive data from another over the internet.  
 Django REST Framework (DRF) is a toolkit built on top of Django  
 It helps create RESTful APIs quickl and cleanl  
+
+Django REST Framework helps us build these web APIs easily in Python.  
+
+Instead of manually handling everything, DRF gives:  
+
+= Ready-made tools to create endpoints
+- Automatic JSON conversion
+- Built-in authentication & permissions
+
+So with DRF, we’re essentially building the “system + delivery” that other apps can talk to.  
+
 ### What is Django REST Framework?  
 
 Django REST Framework (DRF) allows you to build web APIs using Django with less boilerplate and more structure.  
