@@ -6,7 +6,7 @@ Django REST Framework helps us build these web APIs easily in Python.
 
 Instead of manually handling everything, DRF gives:  
 
-= Ready-made tools to create endpoints
+- Ready-made tools to create endpoints
 - Automatic JSON conversion
 - Built-in authentication & permissions
 
