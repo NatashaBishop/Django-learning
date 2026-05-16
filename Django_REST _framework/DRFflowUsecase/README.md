@@ -4,3 +4,13 @@ My stack:
 - front end is Bootstrap
 - back end is Django with Django REST Framework (DRF)
 - database is Postgres
+### Full Request Flow
+Scenario:  
+A user visits your barter platform and clicks on “Show available dog walks” button.  
+How the frontend gets data from Django?  
+1️⃣ Browser Loads the Page..
+The user opens:
+
+    https://dogswingers.com/walks/
+
+Django serves an HTML page using Bootstrap.  
