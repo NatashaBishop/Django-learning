@@ -13,4 +13,14 @@ The user opens:
 
     https://dogswingers.com/walks/
 
-Django serves an HTML page using Bootstrap.  
+Django serves an HTML page walks.html using Bootstrap.  
+
+        <div id="walk-list"></div>
+        
+        <script>
+        fetch('/api/walks/')
+          .then(response => response.json())
+          .then(data => {
+              console.log(data)
+          })
+        </script>
