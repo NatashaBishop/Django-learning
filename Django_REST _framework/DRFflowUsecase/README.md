@@ -26,4 +26,10 @@ Django serves an HTML page walks.html using Bootstrap.
         </script>
 At this point:
 - Bootstrap handles styling
-- JavaScript requests data from your API
+- JavaScript requests data from your API  
+
+2️⃣ Browser Sends API Request 2 the Django backend
+ 
+    HTTP request:
+    GET /api/walks/
+
