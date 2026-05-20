@@ -32,4 +32,12 @@ At this point:
  
     HTTP request:
     GET /api/walks/
+3️⃣ Django URL Router Receives It
+In Django (Django matches the URL to a DRF view):
+
+    # urls.py
+    urlpatterns = [
+        path('api/walks/', WalkListView.as_view()),
+    ]
+
 
