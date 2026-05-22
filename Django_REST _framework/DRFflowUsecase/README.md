@@ -39,5 +39,16 @@ In Django (Django matches the URL to a DRF view):
     urlpatterns = [
         path('api/walks/', WalkListView.as_view()),
     ]
+4️⃣ DRF View Runs and: 
+- Reads from database
+- Converts data to JSON
+- Returns response
+    
+        # views.py
+        class WalkListView(APIView):
+            def get(self, request):
+                walks = Walk.objects.all()
+                serializer = WalkSerializer(walks, many=True)
+                return Response(serializer.data)
 
 
