@@ -51,4 +51,13 @@ In Django (Django matches the URL to a DRF view):
                 serializer = WalkSerializer(walks, many=True)
                 return Response(serializer.data)
 
+DRF supports all of this as well:
+- JWT authentication
+- Notifications
+- Chat/messaging
+- Search/filtering
+- Pagination
+- Background jobs
+- WebSockets for live updates
 
+ 
