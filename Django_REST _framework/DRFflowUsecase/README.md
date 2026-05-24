@@ -99,3 +99,6 @@ Structure matters since a lot because features grow quickly.
     ├── templates/
     │
     └── tests/
+
+It's agood idea to organize structure by business domain.  
+
