@@ -60,4 +60,11 @@ DRF supports all of this as well:
 - Background jobs
 - WebSockets for live updates
 
- 
+## Working on structure of my professional DRF project.  
+
+A professional Django REST Framework project is mostly about:  
+
+- keeping code organized
+- separating responsibilities
+- making scaling easier later
+- avoiding “everything in views.py”
