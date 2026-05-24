@@ -68,3 +68,5 @@ A professional Django REST Framework project is mostly about:
 - separating responsibilities
 - making scaling easier later
 - avoiding “everything in views.py”
+  
+Structure matters since a lot because features grow quickly.
