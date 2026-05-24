@@ -69,4 +69,33 @@ A professional Django REST Framework project is mostly about:
 - making scaling easier later
 - avoiding “everything in views.py”
   
-Structure matters since a lot because features grow quickly.
+Structure matters since a lot because features grow quickly.  
+### A very common scalable professional structure looks like this:
+    project_root/
+    │
+    ├── manage.py
+    ├── requirements/
+    ├── .env
+    ├── docker-compose.yml
+    │
+    ├── config/                 # project settings
+    │   ├── settings/
+    │   │   ├── base.py
+    │   │   ├── development.py
+    │   │   └── production.py
+    │   ├── urls.py
+    │   ├── asgi.py
+    │   └── wsgi.py
+    │
+    ├── apps/
+    │   ├── users/
+    │   ├── listings/
+    │   ├── trades/
+    │   ├── messaging/
+    │   └── reviews/
+    │
+    ├── static/
+    ├── media/
+    ├── templates/
+    │
+    └── tests/
