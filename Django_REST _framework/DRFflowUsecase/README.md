@@ -101,9 +101,15 @@ Structure matters since a lot because features grow quickly.
     └── tests/
 
 It's agood idea to organize structure by business domain.  
-Good example:
+
+Good directory structure example:  
 
     apps/listings/
     apps/trades/
     apps/users/
+Bad directory structure example:
+
+    models/
+    views/
+    serializers/
 
