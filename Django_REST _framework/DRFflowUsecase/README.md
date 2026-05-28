@@ -112,7 +112,7 @@ Bad directory structure example:
     models/
     views/
     serializers/
-My listings app will contain:
+Everything related to listings stays together. My listings app will contain:
 
 - its models
 - serializers
