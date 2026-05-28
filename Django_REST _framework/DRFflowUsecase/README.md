@@ -100,7 +100,7 @@ Structure matters since a lot because features grow quickly.
     │
     └── tests/
 
-It's agood idea to organize structure by business domain.  
+It's agood idea to organize structure by business domain because features grow together. 
 
 Good directory structure example:  
 
@@ -112,4 +112,12 @@ Bad directory structure example:
     models/
     views/
     serializers/
+My listings app will contain:
+
+- its models
+- serializers
+- views
+- permissions
+- urls
+- tests
 
