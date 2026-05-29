@@ -121,3 +121,18 @@ Everything related to listings stays together. My listings app will contain:
 - urls
 - tests
 
+Example App Structure
+
+        apps/listings/
+        │
+        ├── models.py
+        ├── views.py
+        ├── serializers.py
+        ├── urls.py
+        ├── permissions.py
+        ├── services.py
+        ├── selectors.py
+        ├── validators.py
+        ├── tasks.py
+        ├── tests/
+        └── migrations/
