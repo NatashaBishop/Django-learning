@@ -5,7 +5,7 @@
                 serializer = WalkSerializer(walks, many=True)
                 return Response(serializer.data)
                     
-# bad example - do not emplement - 200 lines of business logic:
+# bad example - do not emplement - 200 lines of business logic, do nor doit (-:
 class ListingView(APIView):
     def post(self, request):
             
