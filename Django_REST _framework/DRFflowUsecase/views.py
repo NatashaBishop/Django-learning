@@ -14,3 +14,12 @@ class ListingView(APIView):
     def post(self, request):
         listing = create_listing(request.data)
         return Response(...)
+
+
+#  my view, ddo not use it it is just an example:
+
+class tstList(generics.ListCreateAPIView):
+    queryset = tst.objects.all()
+    serializer_class = tstSerializer
+    filter_backends = [DjangoFilterBackend]
+
