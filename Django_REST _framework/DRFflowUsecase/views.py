@@ -1,5 +1,6 @@
 # Django REST Framework API view that returns all Walk records as JSON
-        class WalkListView(APIView):
+# Create class-based API view. APIView is DRF's base class for handling HTTP requests.
+class WalkListView(APIView):
             def get(self, request):
                 walks = Walk.objects.all()
                 serializer = WalkSerializer(walks, many=True)
