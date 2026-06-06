@@ -3,7 +3,8 @@
 class WalkListView(APIView):
             def get(self, request):  # Hhndle HTTP GET requests (example: GET /api/walks/)
                         #ask database 2 retrieve Walk objects:
-                        walks = Walk.objects.all()
+                        walks = Walk.objects.all() 
+                        # Equivalent SQL: SELECT * FROM walk;
                         serializer = WalkSerializer(walks, many=True)
                         return Response(serializer.data)
                  
