@@ -5,6 +5,7 @@ class WalkListView(APIView):
                         #ask database 2 retrieve Walk objects:
                         walks = Walk.objects.all() 
                         # Equivalent SQL: SELECT * FROM walk;
+# Then Convert Django model objects into Python data that can be rendered as JSON:
                         serializer = WalkSerializer(walks, many=True)
                         return Response(serializer.data)
                  
