@@ -31,3 +31,5 @@ Example response:
             "title": "Evening Walk"
         }
     ]
+### Professional DRF alternative
+For simple "list all objects" views, DRF provides generic views that require less code
