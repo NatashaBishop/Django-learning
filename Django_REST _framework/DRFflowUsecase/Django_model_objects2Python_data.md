@@ -32,4 +32,11 @@ Example response:
         }
     ]
 ### Professional DRF alternative
-For simple "list all objects" views, DRF provides generic views that require less code
+For simple "list all objects" views, DRF provides generic views that require less code: 
+
+    </> Python
+    from rest_framework import generics
+    
+    class WalkListView(generics.ListAPIView):
+        queryset = Walk.objects.all()
+        serializer_class = WalkSerializer
