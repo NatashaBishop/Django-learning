@@ -1,6 +1,7 @@
 Convert Django model objects into Python data that can be rendered as JSON (continue from file views.py).
 
     serializer = WalkSerializer(walks, many=True)
+    
 Example data:
 
     </> Python
@@ -31,6 +32,7 @@ Example response:
             "title": "Evening Walk"
         }
     ]
+    
 ### Professional DRF alternative
 For simple "list all objects" views, DRF provides generic views that require less code: 
 
@@ -40,4 +42,5 @@ For simple "list all objects" views, DRF provides generic views that require les
     class WalkListView(generics.ListAPIView):
         queryset = Walk.objects.all()
         serializer_class = WalkSerializer
+        
 And that is the preferred approach in many professional DRF projects: it's shorter, easier to maintain, and includes built-in support for pagination, filtering, and permissions.
