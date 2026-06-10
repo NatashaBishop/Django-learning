@@ -40,3 +40,4 @@ For simple "list all objects" views, DRF provides generic views that require les
     class WalkListView(generics.ListAPIView):
         queryset = Walk.objects.all()
         serializer_class = WalkSerializer
+And that is the preferred approach in many professional DRF projects: it's shorter, easier to maintain, and includes built-in support for pagination, filtering, and permissions.
