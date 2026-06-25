@@ -34,6 +34,18 @@ It handles common API tasks like:
 4. Connect with URLs (router)
 5. Test via browser or tools like Postman
 ### When to Use DRF?
-- Backend for mobile apps 📱
+- Backend for mobile apps
 - Frontend frameworks (React, Vue, Angular)
 - Microservices or API-first architecture
+
+Think of DRF as layers, each layer has ONE responsibility.  
+That makes large Django projects manageable:
+
+    HTTP Layer      → Views
+    Validation      → Serializers
+    Business Logic  → Services
+    Database Reads  → Selectors
+    Storage         → Models/Postgres
+
+
+
