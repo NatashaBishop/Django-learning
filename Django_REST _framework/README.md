@@ -46,7 +46,7 @@ That makes large Django projects manageable:
     Business Logic  → Services
     Database Reads  → Selectors
     Storage         → Models/Postgres
-A Sample Structure, can scale as far as needed@
+The Sample Structure that we can scale as far as needed 
 
     apps/
     ├── accounts/
